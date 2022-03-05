@@ -99,6 +99,7 @@ body {
 }
 #reload-btn {
   position: absolute;
+  top: 5px;
   left: 12px;
   width: 28px;
   height: 28px;;
@@ -116,6 +117,7 @@ body {
 }
 #help-btn {
   position: absolute;
+  top: 5px;
   right: 12px;
   width: 28px;
   height: 28px;;
