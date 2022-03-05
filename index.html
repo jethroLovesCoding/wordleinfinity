@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wordle ∞</title>
+  </head>
+  <body>
+    <div id="nav-bar"><span id="reload-btn">REFRESH</span><span id="wordle" ></span><span id="help-btn">HELP</span></div>
+    <div id="puzzle-cont" class="flex-cont"></div>
+    <div id="pop-up" class="hide"></div>
+    <div id="key-cont" class="flex-cont"></div>
+    <div id="shadow" class="hide"></div>
+    <div id="help-box" class="hide">
+      <div>
+        <span id="word-count"></span>
+        <button id="close-btn"></button>
+      </div>
+      <p id="ex-cont">
+          <span style="background-color: #3a3a3c;">W</span><span style="background-color: #3a3a3c;">O</span><span id="ex-gr">R</span><span id="ex-yl">D</span><span style="background-color: #3a3a3c;">L</span><span style="background-color: #3a3a3c;">E</span>
+      </p>
+      <p>In WORDLE, you try to find a word with the help of other words and the clues they give.</p>
+      
+      
+      <p>If a box turns <span style="color: #548c4c";>GREEN</span>, then the letter is correct and is in the right spot.</p>
+      
+      <p>If a box turns <span style="color: #b59f3a";>YELLOW</span>, then the letter is correct but is in the wrong spot.</p>
+      
+      <p>If a box is <span style="color: #3a3a3c";>GRAY</span>, then the letter in it is not present in the word to be found.</p>
+    </div>
+  </body>
+  <script type="text/javascript" src="script.js" charset="utf-8"></script>
+</html>
